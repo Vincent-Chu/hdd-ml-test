@@ -1,7 +1,7 @@
 #!/bin/bash
 MQTT_IMAGE=advigw4x86/mqtt-bus
 MQTT_CONTAINER=advigw-mqtt-bus
-HDD_FAILURE_PREDICT_IMAGE=Vincent-Chu/docker-hdd-ml-test
+HDD_FAILURE_PREDICT_IMAGE=vincentchu1979/docker-hdd-ml-test
 HDD_FAILURE_PREDICT_CONTAINER=hdd-failure-predict
 ADVANTECH_NET=advigw_network
 
