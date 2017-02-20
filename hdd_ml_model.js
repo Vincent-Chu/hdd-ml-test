@@ -400,6 +400,7 @@ function predict( deviceID, jsonObj, responsObj){
   //var predict_result = '{"Prediction":{"Health" :' + r + ', "Model Accuracy": "82.5%", "Model version" : "v0.0.8" }}';
   var predict_result = '{"Prediction":{"Health" :' + r + '}}';
   console.log(predict_result);
+  console.log("Vincent Docker test")
   /***********/
 
   var diskObj ={};
