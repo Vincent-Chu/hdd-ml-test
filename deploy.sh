@@ -57,4 +57,4 @@ echo "======================================="
 sudo docker network connect $ADVANTECH_NET $MQTT_CONTAINER
 sudo docker network connect $ADVANTECH_NET $HDD_FAILURE_PREDICT_CONTAINER
 
-#sudo docker exec -it $HDD_FAILURE_PREDICT_CONTAINER /bin/bash
+sudo docker exec -it $HDD_FAILURE_PREDICT_CONTAINER /bin/bash
